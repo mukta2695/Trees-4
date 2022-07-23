@@ -15,7 +15,7 @@ class Solution(object):
         """
         '''If both the nodes are > than the current node, go to the right. If both < curr node then go to the left else return the current node
         Time Complexity: O(h) --> log n if we have a perfect bst
-        Space Complexity: O(1)
+        Space Complexity: O(h) --> Stack space
         '''
         if p.val < root.val and q.val<root.val:
             #Go left
